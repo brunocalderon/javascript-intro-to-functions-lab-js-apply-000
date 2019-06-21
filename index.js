@@ -17,5 +17,10 @@ function logWhisper(text) {
 }
 
 function sayHiToGrandma(text) {
-  
+  if (text.toLowerCase) {
+    return 'I can\'t hear you!'
+  }
+  else {
+    return false;
+  }
 }
