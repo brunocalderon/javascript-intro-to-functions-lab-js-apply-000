@@ -11,7 +11,7 @@ function logShout(text) {
   console.log(upperCased);
 }
 
-function logShout(text) {
+function logWhisper(text) {
   let lowerCased = whisper(text);
   console.log(lowerCased);
 }
