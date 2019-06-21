@@ -15,3 +15,7 @@ function logWhisper(text) {
   let lowerCased = whisper(text);
   console.log(lowerCased);
 }
+
+function sayHiToGrandma(text) {
+  
+}
