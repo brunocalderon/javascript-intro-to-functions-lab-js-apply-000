@@ -20,6 +20,8 @@ function sayHiToGrandma(text) {
   if (text.toLowerCase) {
     return 'I can\'t hear you!'
   }
+  if (text.toUpperCase)
+  
   else {
     return false;
   }
